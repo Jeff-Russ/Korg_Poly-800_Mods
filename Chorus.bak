@@ -35,7 +35,7 @@ LIBS:BBD_Short
 LIBS:MN3102
 LIBS:NE571
 LIBS:DualOpAmp
-LIBS:Poly-800_mod-cache
+LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 7205 7481
@@ -2132,8 +2132,8 @@ Post-Chorus Filtering
 $Sheet
 S 1100 2550 550  800 
 U 59FAB4E6
-F0 "Chorus_Extensions" 31
-F1 "Chorus_Extensions.sch" 28
+F0 "Chorus_Mods" 31
+F1 "Chorus_Mods.sch" 28
 F2 "-A" I L 1100 3000 35 
 F3 "+A" I L 1100 2800 31 
 F4 "GND" I L 1100 2900 31 

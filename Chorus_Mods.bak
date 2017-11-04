@@ -35,7 +35,7 @@ LIBS:BBD_Short
 LIBS:MN3102
 LIBS:NE571
 LIBS:DualOpAmp
-LIBS:Poly-800_mod-cache
+LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 5118 4724
@@ -79,8 +79,8 @@ Wet
 $Sheet
 S 1250 700  750  1400
 U 59FAE5D3
-F0 "Chorus_Extension" 39
-F1 "./Chorus_Extension/Chorus_Extension.sch" 20
+F0 "Chorus_Ext" 39
+F1 "./Chorus_Ext/Chorus_Ext.sch" 29
 F2 "+A" I L 1250 800 31 
 F3 "-A" I L 1250 1000 31 
 F4 "GND" I L 1250 900 31 
@@ -105,19 +105,19 @@ F22 "Wet→" O R 2000 1600 31
 F23 "Wet" I L 1250 2000 31 
 $EndSheet
 $Sheet
-S 2450 700  700  1150
+S 2350 700  750  1150
 U 59FAE7A0
-F0 "Chorus_Control" 39
-F1 "./Chorus_Control/Chorus_Control.sch" 20
-F2 "Wet" I L 2450 1600 31 
-F3 "Dry" I L 2450 800 31 
-F4 "WetL" O L 2450 900 31 
-F5 "DryR" O L 2450 1000 31 
-F6 "WetR" O L 2450 1100 31 
-F7 "+A" I L 2450 1200 31 
-F8 "GND" I L 2450 1300 31 
-F9 "-A" I L 2450 1400 31 
-F10 "FB" O L 2450 1500 31 
+F0 "Chorus_Ctrl" 39
+F1 "./Chorus_Ctrl/Chorus_Ctrl.sch" 29
+F2 "Wet" I L 2350 1600 31 
+F3 "Dry" I L 2350 800 31 
+F4 "WetL" O L 2350 900 31 
+F5 "DryR" O L 2350 1000 31 
+F6 "WetR" O L 2350 1100 31 
+F7 "+A" I L 2350 1200 31 
+F8 "GND" I L 2350 1300 31 
+F9 "-A" I L 2350 1400 31 
+F10 "FB" O L 2350 1500 31 
 $EndSheet
 Text Notes 3650 2150 0    31   ~ 0
 Stereo\n  Pot
@@ -218,21 +218,21 @@ Wire Wire Line
 Wire Wire Line
 	1150 2000 1250 2000
 Wire Wire Line
-	2000 800  2450 800 
+	2000 800  2350 800 
 Wire Wire Line
-	2450 900  2000 900 
+	2350 900  2000 900 
 Wire Wire Line
-	2000 1000 2450 1000
+	2000 1000 2350 1000
 Wire Wire Line
-	2450 1100 2000 1100
+	2350 1100 2000 1100
 Wire Wire Line
-	2000 1200 2450 1200
+	2000 1200 2350 1200
 Wire Wire Line
-	2450 1300 2000 1300
+	2350 1300 2000 1300
 Wire Wire Line
-	2000 1400 2450 1400
+	2000 1400 2350 1400
 Wire Wire Line
-	2450 1500 2000 1500
+	2350 1500 2000 1500
 Wire Wire Line
-	2000 1600 2450 1600
+	2000 1600 2350 1600
 $EndSCHEMATC
