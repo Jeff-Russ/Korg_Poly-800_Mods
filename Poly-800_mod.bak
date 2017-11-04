@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 10157 6103
 encoding utf-8
-Sheet 1 3
+Sheet 1 5
 Title "Poly-800 Extensions"
 Date "2017-10-29"
 Rev ""
@@ -51,8 +51,8 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5100 950  1050 750 
-U 59F878A4
+S 5050 2450 950  400 
+U 59FAABE9
 F0 "Chorus" 31
 F1 "Chorus.sch" 31
 $EndSheet

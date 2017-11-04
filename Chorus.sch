@@ -40,7 +40,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 7205 7481
 encoding utf-8
-Sheet 2 3
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -50,25 +50,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1100 2550 550  800 
-U 59F87971
-F0 "Chorus_Extensions" 31
-F1 "Chorus_Extensions.sch" 31
-F2 "+A" I L 1100 2800 31 
-F3 "-A" I L 1100 3000 31 
-F4 "GND" I L 1100 2900 31 
-F5 "DryRet" O R 1650 2700 31 
-F6 "Dry" I L 1100 2600 31 
-F7 "TriRet" O R 1650 3300 31 
-F8 "Squ" I L 1100 3300 31 
-F9 "SquRet" O L 1100 3200 31 
-F10 "R" O R 1650 3100 31 
-F11 "L" O R 1650 3200 31 
-F12 "Tri" I L 1100 3100 31 
-F13 "AuxJack" I L 1100 2700 31 
-F14 "Wet" I R 1650 2600 31 
-$EndSheet
 $Comp
 L CP1_Small C39
 U 1 1 59F88D64
@@ -2148,4 +2129,23 @@ Text Notes 4200 2150 0    39   ~ 8
 Pre-Chorus\n Filtering
 Text Notes 5650 950  0    39   ~ 8
 Post-Chorus Filtering
+$Sheet
+S 1100 2550 550  800 
+U 59FAB4E6
+F0 "Chorus_Extensions" 31
+F1 "Chorus_Extensions.sch" 28
+F2 "-A" I L 1100 3000 35 
+F3 "+A" I L 1100 2800 31 
+F4 "GND" I L 1100 2900 31 
+F5 "DryRet" O R 1650 2700 31 
+F6 "Dry" I L 1100 2600 31 
+F7 "TriRet" O R 1650 3300 31 
+F8 "Squ" I L 1100 3300 31 
+F9 "SquRet" O L 1100 3200 31 
+F10 "R" O R 1650 3100 31 
+F11 "L" O R 1650 3200 31 
+F12 "Tri" I L 1100 3100 31 
+F13 "AuxJack" I L 1100 2700 31 
+F14 "Wet" I R 1650 2600 31 
+$EndSheet
 $EndSCHEMATC
