@@ -30,11 +30,10 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:MiscellaneousDevices
-LIBS:QuadOpAmp
-LIBS:BBD_Short
+LIBS:DualOpAmp
 LIBS:MN3102
 LIBS:NE571
-LIBS:DualOpAmp
+LIBS:QuadOpAmp
 LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END

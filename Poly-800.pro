@@ -1,4 +1,4 @@
-update=Wednesday, November 01, 2017 'AMt' 02:39:31 AM
+update=Saturday, November 04, 2017 'PMt' 08:00:05 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=31
 [eeschema]
 version=1
-LibDir=../../../../../MyKicadPath
+LibDir=/Users/jeff/MyKicadPath
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -70,8 +70,7 @@ LibName28=contrib
 LibName29=valves
 LibName30=switches
 LibName31=imciner2:KiCad-Libraries/symbols/MiscellaneousDevices
-LibName32=QuadOpAmp
-LibName33=BBD_Short
-LibName34=MN3102
-LibName35=NE571
-LibName36=DualOpAmp
+LibName32=DualOpAmp
+LibName33=MN3102
+LibName34=NE571
+LibName35=QuadOpAmp

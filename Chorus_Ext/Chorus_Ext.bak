@@ -30,15 +30,14 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:MiscellaneousDevices
-LIBS:QuadOpAmp
-LIBS:BBD_Short
+LIBS:DualOpAmp
 LIBS:MN3102
 LIBS:NE571
-LIBS:DualOpAmp
+LIBS:QuadOpAmp
 LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END
-$Descr User 6300 5708
+$Descr User 6300 6693
 encoding utf-8
 Sheet 4 5
 Title ""
@@ -994,7 +993,7 @@ Wire Wire Line
 Connection ~ 2050 1400
 Connection ~ 2050 1200
 Wire Wire Line
-	4000 3700 1700 3700
+	1700 3700 4000 3700
 Wire Notes Line
 	4400 550  4400 3800
 Wire Notes Line
@@ -1018,7 +1017,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 2100 1000 2150
 Wire Wire Line
-	4000 2550 4000 3700
+	4000 3700 4000 2550
 Wire Wire Line
 	4000 1300 4100 1300
 Wire Wire Line
@@ -1132,4 +1131,76 @@ Wire Wire Line
 Wire Wire Line
 	2150 950  2250 950 
 Connection ~ 2150 650 
+Text Notes 2150 4050 0    31   ~ 0
+Stereo\n  Pot
+Text Notes 2150 4200 0    31   ~ 0
+WetPass\n  Pot
+Text Notes 2150 4350 0    31   ~ 0
+Feedback\n   Pot
+Text Notes 2200 4500 0    31   ~ 0
+Depth\n Pot
+Text Notes 2200 4650 0    31   ~ 0
+Rate\n Pot
+Text Notes 2450 4200 0    31   ~ 0
+FiltPan\n  SW
+Text Notes 2450 4350 0    31   ~ 0
+FbInv\n  SW
+Text Notes 2400 4500 0    31   ~ 0
+Synth2Fx\n    SW
+Text Notes 2450 4650 0    31   ~ 0
+Aux2Fx\n  SW
+Text Notes 1900 4650 0    31   ~ 0
+LFOShape\n   SW
+Text Notes 1200 4000 2    24   ~ 0
+- - -
+Text Notes 1200 4500 2    24   ~ 0
+- - -
+Text Notes 1000 4300 0    35   ~ 7
+KLM-598-3\n    PCB
+Text Notes 1900 4300 0    35   ~ 7
+Chorus\nControl\n PCB
+Text Notes 1400 4300 0    35   ~ 7
+ Chorus\nExtension\n  PCB
+Text Notes 1850 4000 2    24   ~ 0
+- - - -
+Text Notes 1850 4500 2    24   ~ 0
+- - - -
+Text Notes 750  3950 2    24   ~ 0
+- - - -
+Text Notes 750  4800 2    24   ~ 0
+- - - -
+Text Notes 1400 4750 0    35   ~ 7
+Keyboard Keys
+Wire Notes Line
+	2400 4500 2400 3950
+Wire Notes Line
+	2400 3950 1900 3950
+Wire Notes Line
+	1900 3950 1900 4500
+Wire Notes Line
+	1900 4500 2400 4500
+Wire Notes Line
+	1200 3950 1650 3950
+Wire Notes Line
+	900  3950 900  4500
+Wire Notes Line
+	1200 4500 1650 4500
+Wire Notes Line
+	1350 4500 1350 3950
+Wire Notes Line
+	1650 4500 1650 3950
+Wire Notes Line
+	1050 3950 900  3950
+Wire Notes Line
+	900  4500 1050 4500
+Wire Notes Line
+	2650 4800 2650 3900
+Wire Notes Line
+	2650 3900 750  3900
+Wire Notes Line
+	550  3900 550  4800
+Wire Notes Line
+	750  4800 2650 4800
+Wire Notes Line
+	550  4650 2650 4650
 $EndSCHEMATC
