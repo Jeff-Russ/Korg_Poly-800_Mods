@@ -1,4 +1,4 @@
-update=Thursday, November 02, 2017 'AMt' 01:30:45 AM
+update=Thursday, November 09, 2017 'AMt' 01:56:07 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/Users/jeff/MyKicadPath
+LibDir=../../../KiCad/MyKi/Symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
