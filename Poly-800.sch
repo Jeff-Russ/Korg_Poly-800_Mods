@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Poly-800-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,10 +31,10 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:MiscellaneousDevices
-LIBS:DualOpAmp
-LIBS:MN3102
-LIBS:NE571
-LIBS:QuadOpAmp
+LIBS:MyKi_Connectors
+LIBS:MyKi_Switches
+LIBS:MyKi_DIP_IC
+LIBS:MyKi_Board_Features
 LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END

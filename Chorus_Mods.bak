@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Poly-800-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,10 +31,10 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:MiscellaneousDevices
-LIBS:DualOpAmp
-LIBS:MN3102
-LIBS:NE571
-LIBS:QuadOpAmp
+LIBS:MyKi_Connectors
+LIBS:MyKi_Switches
+LIBS:MyKi_DIP_IC
+LIBS:MyKi_Board_Features
 LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END
@@ -72,11 +73,9 @@ L
 Text HLabel 800  1750 0    39   Input ~ 0
 Tri
 Text HLabel 800  1850 0    39   Input ~ 0
-AuxJack
-Text HLabel 800  1950 0    39   Input ~ 0
 Wet
 $Sheet
-S 900  650  750  1400
+S 900  650  750  1300
 U 59FAE5D3
 F0 "Chorus_Ext" 39
 F1 "./Chorus_Ext/Chorus_Ext.sch" 29
@@ -91,17 +90,16 @@ F9 "SquRet" O L 900 1450 31
 F10 "R" O L 900 1550 31 
 F11 "L" O L 900 1650 31 
 F12 "Tri" I L 900 1750 31 
-F13 "AuxJack" I L 900 1850 31 
-F14 "Dry→" O R 1650 750 31 
-F15 "WetL←" I R 1650 850 31 
-F16 "DryR←" I R 1650 950 31 
-F17 "WetR←" I R 1650 1050 31 
-F18 "+A→" O R 1650 1150 31 
-F19 "GND→" O R 1650 1250 31 
-F20 "-A→" O R 1650 1350 31 
-F21 "FB←" I R 1650 1450 31 
-F22 "Wet→" O R 1650 1550 31 
-F23 "Wet" I L 900 1950 31 
+F13 "Dry→" O R 1650 750 31 
+F14 "WetL←" I R 1650 850 31 
+F15 "DryR←" I R 1650 950 31 
+F16 "WetR←" I R 1650 1050 31 
+F17 "+A→" O R 1650 1150 31 
+F18 "GND→" O R 1650 1250 31 
+F19 "-A→" O R 1650 1350 31 
+F20 "FB←" I R 1650 1450 31 
+F21 "Wet→" O R 1650 1550 31 
+F22 "Wet" I L 900 1850 31 
 $EndSheet
 $Sheet
 S 2000 650  750  1150
@@ -214,8 +212,6 @@ Wire Wire Line
 	800  1750 900  1750
 Wire Wire Line
 	800  1850 900  1850
-Wire Wire Line
-	800  1950 900  1950
 Wire Wire Line
 	1650 750  2000 750 
 Wire Wire Line

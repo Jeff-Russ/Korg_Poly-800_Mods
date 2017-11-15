@@ -1,4 +1,4 @@
-update=Wednesday, November 08, 2017 'AMt' 02:50:37 AM
+update=Tuesday, November 14, 2017 'PMt' 07:30:22 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,19 +25,9 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=31
 [eeschema]
 version=1
-LibDir=/Users/jeff/MyKicadPath
+LibDir=../../KiCadLibs/MyKi/Symbols;../../KiCadLibs/smisioto/library;../../KiCadLibs/imciner2/symbols
 [eeschema/libraries]
 LibName1=Poly-800-rescue
 LibName2=power
@@ -70,8 +60,18 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=switches
-LibName32=imciner2:KiCad-Libraries/symbols/MiscellaneousDevices
-LibName33=DualOpAmp
-LibName34=MN3102
-LibName35=NE571
-LibName36=QuadOpAmp
+LibName32=MiscellaneousDevices
+LibName33=MyKi_Connectors
+LibName34=MyKi_Switches
+LibName35=MyKi_DIP_IC
+LibName36=MyKi_Board_Features
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=31
+ERC_TestSimilarLabels=1

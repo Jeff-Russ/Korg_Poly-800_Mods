@@ -1,4 +1,4 @@
-update=Thursday, November 09, 2017 'AMt' 01:56:07 AM
+update=Monday, November 13, 2017 'PMt' 05:04:16 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../KiCad/MyKi/Symbols
+LibDir=../../../KiCadLibs/MyKi/Symbols;../../../KiCadLibs/smisioto_kicad_libs/library;../../../KiCadLibs/smisioto/library;../../../KiCadLibs/imciner2/symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,8 +59,17 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=switches
-LibName31=BBD_Short
-LibName32=DualOpAmp
-LibName33=MN3102
-LibName34=NE571
-LibName35=QuadOpAmp
+LibName31=MyKi_DIP_IC
+LibName32=MyKi_Switches
+LibName33=MyKi_Connectors
+LibName34=MyKi_Board_Features
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

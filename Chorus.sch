@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Poly-800-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,10 +31,10 @@ LIBS:contrib
 LIBS:valves
 LIBS:switches
 LIBS:MiscellaneousDevices
-LIBS:DualOpAmp
-LIBS:MN3102
-LIBS:NE571
-LIBS:QuadOpAmp
+LIBS:MyKi_Connectors
+LIBS:MyKi_Switches
+LIBS:MyKi_DIP_IC
+LIBS:MyKi_Board_Features
 LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END
@@ -63,7 +64,7 @@ $EndComp
 Text HLabel 3450 1150 0    31   Input ~ 0
 -A
 $Comp
-L BBD_Short IC5
+L BBD-Short IC5
 U 1 1 59F8B7EB
 P 5400 3050
 F 0 "IC5" H 5400 3050 31  0000 C CNN
@@ -74,7 +75,7 @@ F 3 "DOCUMENTATION" H 5400 3050 25  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MN3102 IC6
+L BBD-Short-Clk IC6
 U 1 1 59F8B8A9
 P 5400 4650
 F 0 "IC6" H 5400 4650 31  0000 C CNN
@@ -177,7 +178,7 @@ F 3 "" H 3600 1250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L QuadOpAmp IC4
+L Quad-Op-Amp IC4
 U 1 1 59F95AC0
 P 1600 1550
 F 0 "IC4" H 1600 1700 31  0000 C CNN
@@ -329,8 +330,6 @@ Text HLabel 1050 2800 0    31   Input ~ 0
 +A
 Text HLabel 1050 2900 0    31   Input ~ 0
 GND
-Text HLabel 1050 2700 0    31   Input ~ 0
-AuxJack
 $Comp
 L R R30
 U 1 1 59FB3062
@@ -691,9 +690,9 @@ F 3 "" H 4250 2900 50  0001 C CNN
 	1    4250 2900
 	1    0    0    -1  
 $EndComp
-Text HLabel 1050 2600 0    31   Input ~ 0
+Text HLabel 850  2700 0    31   Input ~ 0
 AudioIn
-Text Notes 750  2450 0    31   ~ 6
+Text Notes 600  2650 0    31   ~ 6
 aprox 1V PTP\nKorg's Input\nFET switching \nhas no effect\non signal and\nwas omitted.
 $Comp
 L CP1_Small C32
@@ -755,7 +754,7 @@ $EndComp
 Text Notes 5000 800  0    31   ~ 6
 Korg's output FET \nswitching has no\neffect on signal\nand was ommmited.
 $Comp
-L QuadOpAmp IC7
+L Quad-Op-Amp IC7
 U 1 1 5A10BE82
 P 1400 4200
 F 0 "IC7" H 1400 4350 31  0000 C CNN
@@ -915,7 +914,7 @@ F 3 "" H 2600 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DualOpAmp IC8
+L Dual-Op-Amp IC8
 U 1 1 5A181291
 P 2950 4400
 F 0 "IC8" H 2950 4400 31  0000 C CNN
@@ -1042,7 +1041,7 @@ Text HLabel 4900 4100 2    31   Input ~ 0
 Text HLabel 2500 3750 2    31   Input ~ 0
 +D
 $Comp
-L DualOpAmp IC2
+L Dual-Op-Amp IC2
 U 1 1 5A1B03E7
 P 2200 3150
 F 0 "IC2" H 2200 3150 31  0000 C CNN
@@ -1335,8 +1334,6 @@ Wire Wire Line
 	1050 3000 1100 3000
 Wire Wire Line
 	1050 2900 1100 2900
-Wire Wire Line
-	1050 2700 1100 2700
 Wire Wire Line
 	1150 850  1150 1450
 Wire Wire Line
@@ -1955,7 +1952,7 @@ Wire Wire Line
 	1900 5900 1900 6000
 Connection ~ 1900 5950
 Wire Wire Line
-	1050 2600 1100 2600
+	850  2700 1100 2700
 Text HLabel 1900 6350 2    31   Output ~ 0
 -D
 Text HLabel 1900 5550 2    31   Output ~ 0
@@ -2137,14 +2134,13 @@ F2 "-A" I L 1100 3000 35
 F3 "+A" I L 1100 2800 31 
 F4 "GND" I L 1100 2900 31 
 F5 "DryRet" O R 1650 2700 31 
-F6 "Dry" I L 1100 2600 31 
+F6 "Dry" I L 1100 2700 31 
 F7 "TriRet" O R 1650 3300 31 
 F8 "Squ" I L 1100 3300 31 
 F9 "SquRet" O L 1100 3200 31 
 F10 "R" O R 1650 3100 31 
 F11 "L" O R 1650 3200 31 
 F12 "Tri" I L 1100 3100 31 
-F13 "AuxJack" I L 1100 2700 31 
-F14 "Wet" I R 1650 2600 31 
+F13 "Wet" I R 1650 2600 31 
 $EndSheet
 $EndSCHEMATC
