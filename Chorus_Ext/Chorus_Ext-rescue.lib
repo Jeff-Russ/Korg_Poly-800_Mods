@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# Pad-RESCUE-Poly-800
+# Pad-RESCUE-Chorus_Ext
 #
-DEF ~Pad-RESCUE-Poly-800 P 0 0 N Y 1 F N
+DEF ~Pad-RESCUE-Chorus_Ext P 0 0 N Y 1 F N
 F0 "P" 25 25 25 H V C CNN
-F1 "Pad-RESCUE-Poly-800" 25 -30 8 H I C CNN
+F1 "Pad-RESCUE-Chorus_Ext" 25 -30 8 H I C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 50 0 50 V I C CNN
 $FPLIST

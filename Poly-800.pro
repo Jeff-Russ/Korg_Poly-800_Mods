@@ -1,4 +1,4 @@
-update=Tuesday, November 14, 2017 'PMt' 07:30:22 PM
+update=Thursday, November 16, 2017 'PMt' 08:37:25 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=31
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../../KiCadLibs/MyKi/Symbols;../../KiCadLibs/smisioto/library;../../KiCadLibs/imciner2/symbols
@@ -65,13 +75,3 @@ LibName33=MyKi_Connectors
 LibName34=MyKi_Switches
 LibName35=MyKi_DIP_IC
 LibName36=MyKi_Board_Features
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=31
-ERC_TestSimilarLabels=1
