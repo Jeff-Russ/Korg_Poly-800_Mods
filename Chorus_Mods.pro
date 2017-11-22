@@ -1,6 +1,10 @@
-update=Sunday, November 19, 2017 'PMt' 09:19:56 PM
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,11 +27,9 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../../../KiCadLibs/imciner2/symbols;../../../KiCadLibs/MyKi/Symbols;../../../KiCadLibs/smisioto/library
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,9 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=switches
-LibName31=MyKi_Board_Features
-LibName32=MyKi_Connectors
-LibName33=MyKi_DIP_IC
-LibName34=MyKi_Switches
-LibName35=MyKI_Potentiometers

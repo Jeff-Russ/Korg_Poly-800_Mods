@@ -35,6 +35,7 @@ LIBS:MyKi_Connectors
 LIBS:MyKi_Switches
 LIBS:MyKi_DIP_IC
 LIBS:MyKi_Board_Features
+LIBS:MyKI_Potentiometers
 LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END

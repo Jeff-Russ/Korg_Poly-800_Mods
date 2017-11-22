@@ -1,4 +1,4 @@
-update=Thursday, November 16, 2017 'PMt' 08:37:25 PM
+update=Sunday, November 19, 2017 'AMt' 02:54:24 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -32,9 +32,9 @@ PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceAjustPassiveValues=0
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
 LabSize=31
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=../../KiCadLibs/MyKi/Symbols;../../KiCadLibs/smisioto/library;../../KiCadLibs/imciner2/symbols
@@ -75,3 +75,4 @@ LibName33=MyKi_Connectors
 LibName34=MyKi_Switches
 LibName35=MyKi_DIP_IC
 LibName36=MyKi_Board_Features
+LibName37=MyKI_Potentiometers
