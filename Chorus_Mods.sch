@@ -192,8 +192,8 @@ Wire Wire Line
 $Sheet
 S 900  700  750  1200
 U 5A11371F
-F0 "Chorus_Ext" 31
-F1 "./Chorus_Ext/Chorus_Ext.sch" 31
+F0 "Chorus-Ext-PCB" 31
+F1 "./Cho-Ext/Cho-Ext.sch" 31
 F2 "+A_A4" I L 900 1050 31 
 F3 "-A_A3" I L 900 950 31 
 F4 "GND_A5" I L 900 1150 31 
@@ -219,8 +219,8 @@ $EndSheet
 $Sheet
 S 2000 700  750  1000
 U 5A113D17
-F0 "Chorus_Ctrl" 31
-F1 "./Chorus_Ctrl/Chorus_Ctrl.sch" 31
+F0 "Chorus-Ctrl-PCB" 31
+F1 "./Cho-Ctrl/Cho-Ctrl.sch" 31
 F2 "Wet" I L 2000 1150 31 
 F3 "Dry" I L 2000 750 31 
 F4 "WetL" O L 2000 850 31 

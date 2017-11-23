@@ -28,6 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MyKi_Board_Features
+LIBS:MyKi_Connectors
+LIBS:MyKi_DIP_IC
+LIBS:MyKI_Potentiometers
+LIBS:MyKi_Switches
+LIBS:Chorus_Mods-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 5315 4724

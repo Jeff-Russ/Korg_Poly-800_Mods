@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=Wednesday, November 22, 2017 'AMt' 02:36:17 AM
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../../KiCadLibs/MyKi/Symbols;../../KiCadLibs/imciner2/symbols;../../KiCadLibs/smisioto/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=MyKi_Board_Features
+LibName31=MyKi_Connectors
+LibName32=MyKi_DIP_IC
+LibName33=MyKI_Potentiometers
+LibName34=MyKi_Switches
