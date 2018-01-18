@@ -39,9 +39,9 @@ LIBS:MyKI_Potentiometers
 LIBS:Poly-800-cache
 EELAYER 25 0
 EELAYER END
-$Descr User 10157 6103
+$Descr User 5969 4000
 encoding utf-8
-Sheet 1 5
+Sheet 1 3
 Title "Poly-800 Extensions"
 Date "2017-10-29"
 Rev ""
@@ -52,7 +52,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5050 2450 950  400 
+S 1250 950  950  400 
 U 59FAABE9
 F0 "Chorus" 31
 F1 "Chorus.sch" 31

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name w_conn_av)(type KiCad)(uri "/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/smisioto/modules/w_conn_av.pretty")(options "")(descr ""))
+)
