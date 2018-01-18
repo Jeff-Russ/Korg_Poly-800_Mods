@@ -1,4 +1,4 @@
-update=Sunday, November 19, 2017 'PMt' 09:19:56 PM
+update=Friday, November 24, 2017 'PMt' 09:49:29 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=MyKi_Connectors
 LibName33=MyKi_DIP_IC
 LibName34=MyKi_Switches
 LibName35=MyKI_Potentiometers
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

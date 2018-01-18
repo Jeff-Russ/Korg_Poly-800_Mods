@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Chorus_Ext-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,17 +29,17 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:MyKi_Board_Features
-LIBS:MyKi_Connectors
+LIBS:switches
 LIBS:MyKi_DIP_IC
-LIBS:MyKI_Potentiometers
 LIBS:MyKi_Switches
-LIBS:Chorus_Mods-cache
+LIBS:MyKi_Connectors
+LIBS:MyKi_Board_Features
+LIBS:Cho-Ext-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 6694 7087
 encoding utf-8
-Sheet 2 3
+Sheet 1 1
 Title "Chorus-Ext Board and Associated Point to Point Wiring"
 Date ""
 Rev ""
@@ -433,7 +434,7 @@ F 3 "" H 4100 1800 50  0001 C CNN
 	1    4100 1800
 	0    1    1    0   
 $EndComp
-Text HLabel 3850 2050 2    39   Output ~ 0
+Text HLabel 3900 2050 2    39   Output ~ 0
 DryRet_A2
 Text HLabel 1600 800  0    39   Input ~ 0
 Dry_A1
@@ -894,9 +895,9 @@ Text HLabel 3000 1450 2    39   Input ~ 0
 WetR_B4
 Text HLabel 3050 1750 2    39   Output ~ 0
 +A_B6
-Text HLabel 3050 1850 2    39   Output ~ 0
+Text HLabel 3050 1900 2    39   Output ~ 0
 GND_B7
-Text HLabel 3050 1950 2    39   Output ~ 0
+Text HLabel 3050 2050 2    39   Output ~ 0
 -A_B8
 Text Notes 2900 975  0    31   ~ 6
 Ribbon B to\nCho-Ctrl PCB
@@ -974,7 +975,7 @@ L F-M-Pins P_Wet_B5
 U 1 1 5A0AD480
 P 2900 1600
 F 0 "P_Wet_B5" H 2900 1650 25  0000 C CNN
-F 1 "blue" H 2925 1570 10  0001 C CNN
+F 1 "blue" H 3100 1650 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2830 1600 50  0001 C CNN
 F 3 "" V 2950 1600 50  0001 C CNN
 	1    2900 1600
@@ -985,7 +986,7 @@ L F-M-Pins P_DryCP_B1
 U 1 1 5A0AD57F
 P 2900 1050
 F 0 "P_DryCP_B1" H 2900 1100 25  0000 C CNN
-F 1 "orange" H 2925 1020 10  0001 C CNN
+F 1 "orange" H 3100 1100 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2830 1050 50  0001 C CNN
 F 3 "" V 2950 1050 50  0001 C CNN
 	1    2900 1050
@@ -1007,7 +1008,7 @@ L F-M-Pins P_WetL_B2
 U 1 1 5A0AD786
 P 2900 1250
 F 0 "P_WetL_B2" H 2900 1300 25  0000 C CNN
-F 1 "yellow" H 2925 1220 10  0001 C CNN
+F 1 "yellow" H 3100 1300 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2830 1250 50  0001 C CNN
 F 3 "" V 2950 1250 50  0001 C CNN
 	1    2900 1250
@@ -1018,7 +1019,7 @@ L F-M-Pins P_DryR_B3
 U 1 1 5A0AD892
 P 2900 1350
 F 0 "P_DryR_B3" H 2900 1400 25  0000 C CNN
-F 1 "orange+b" H 2925 1320 10  0001 C CNN
+F 1 "orange+b" H 3150 1400 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2830 1350 50  0001 C CNN
 F 3 "" V 2950 1350 50  0001 C CNN
 	1    2900 1350
@@ -1029,7 +1030,7 @@ L F-M-Pins P_WetR_B4
 U 1 1 5A0AD99C
 P 2900 1450
 F 0 "P_WetR_B4" H 2900 1500 25  0000 C CNN
-F 1 "purple" H 2925 1420 10  0001 C CNN
+F 1 "purple" H 3150 1500 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2830 1450 50  0001 C CNN
 F 3 "" V 2950 1450 50  0001 C CNN
 	1    2900 1450
@@ -1040,7 +1041,7 @@ L F-M-Pins P_+A_B6
 U 1 1 5A0ADAAA
 P 2950 1750
 F 0 "P_+A_B6" H 2950 1800 25  0000 C CNN
-F 1 "red" H 2975 1720 10  0001 C CNN
+F 1 "red" H 3100 1800 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2880 1750 50  0001 C CNN
 F 3 "" V 3000 1750 50  0001 C CNN
 	1    2950 1750
@@ -1049,23 +1050,23 @@ $EndComp
 $Comp
 L F-M-Pins P_GND_B7
 U 1 1 5A0ADBBF
-P 2950 1850
-F 0 "P_GND_B7" H 2950 1900 25  0000 C CNN
-F 1 "black" H 2975 1820 10  0001 C CNN
-F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2880 1850 50  0001 C CNN
-F 3 "" V 3000 1850 50  0001 C CNN
-	1    2950 1850
+P 2950 1900
+F 0 "P_GND_B7" H 2950 1950 25  0000 C CNN
+F 1 "black" H 3150 1950 24  0000 C CNN
+F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2880 1900 50  0001 C CNN
+F 3 "" V 3000 1900 50  0001 C CNN
+	1    2950 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L F-M-Pins P_-A_B8
 U 1 1 5A0ADCD5
-P 3050 2000
-F 0 "P_-A_B8" V 3150 2050 25  0000 C CNN
-F 1 "brown" H 3075 1970 10  0001 C CNN
-F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2980 2000 50  0001 C CNN
-F 3 "" V 3100 2000 50  0001 C CNN
-	1    3050 2000
+P 3050 2100
+F 0 "P_-A_B8" V 3150 2150 25  0000 C CNN
+F 1 "brown" V 3150 2000 24  0000 C CNN
+F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 2980 2100 50  0001 C CNN
+F 3 "" V 3100 2100 50  0001 C CNN
+	1    3050 2100
 	0    -1   -1   0   
 $EndComp
 Text Notes 1750 1650 0    31   ~ 0
@@ -1076,8 +1077,8 @@ $Comp
 L TH-Wire P_Dry_A1
 U 1 1 5A106306
 P 1650 800
-F 0 "P_Dry_A1" H 1650 750 24  0000 C CNN
-F 1 "yellow" H 1675 750 24  0001 C CNN
+F 0 "P_Dry_A1" H 1600 750 24  0000 C CNN
+F 1 "yellow" H 1750 750 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 1580 800 50  0001 C CNN
 F 3 "" V 1550 850 50  0001 C CNN
 	1    1650 800 
@@ -1087,8 +1088,8 @@ $Comp
 L TH-Wire P_L_A8
 U 1 1 5A106E83
 P 1650 1250
-F 0 "P_L_A8" H 1650 1200 24  0000 C CNN
-F 1 "yellow" H 1675 1200 24  0001 C CNN
+F 0 "P_L_A8" H 1600 1200 24  0000 C CNN
+F 1 "yellow" H 1750 1200 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 1580 1250 50  0001 C CNN
 F 3 "" V 1550 1300 50  0001 C CNN
 	1    1650 1250
@@ -1098,8 +1099,8 @@ $Comp
 L TH-Wire P_R_A7
 U 1 1 5A10713C
 P 1650 1450
-F 0 "P_R_A7" H 1650 1400 24  0000 C CNN
-F 1 "orange" H 1675 1400 24  0001 C CNN
+F 0 "P_R_A7" H 1600 1400 24  0000 C CNN
+F 1 "orange" H 1750 1400 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 1580 1450 50  0001 C CNN
 F 3 "" V 1550 1500 50  0001 C CNN
 	1    1650 1450
@@ -1109,8 +1110,8 @@ $Comp
 L TH-Wire P_+A_A4
 U 1 1 5A107295
 P 1750 1750
-F 0 "P_+A_A4" H 1750 1700 24  0000 C CNN
-F 1 "red" H 1775 1700 24  0001 C CNN
+F 0 "P_+A_A4" H 1700 1700 24  0000 C CNN
+F 1 "red" H 1850 1700 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 1680 1750 50  0001 C CNN
 F 3 "" V 1650 1800 50  0001 C CNN
 	1    1750 1750
@@ -1120,8 +1121,8 @@ $Comp
 L TH-Wire P_GND_A5
 U 1 1 5A107A6D
 P 1800 2850
-F 0 "P_GND_A5" H 1800 2800 24  0000 C CNN
-F 1 "black" H 1825 2800 24  0001 C CNN
+F 0 "P_GND_A5" H 1750 2800 24  0000 C CNN
+F 1 "black" H 1900 2800 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 1730 2850 50  0001 C CNN
 F 3 "" V 1700 2900 50  0001 C CNN
 	1    1800 2850
@@ -1131,8 +1132,8 @@ $Comp
 L TH-Wire P_-A_A3
 U 1 1 5A107F07
 P 1750 3700
-F 0 "P_-A_A3" H 1750 3650 24  0000 C CNN
-F 1 "brown" H 1775 3650 24  0001 C CNN
+F 0 "P_-A_A3" H 1700 3650 24  0000 C CNN
+F 1 "brown" H 1850 3650 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 1680 3700 50  0001 C CNN
 F 3 "" V 1650 3750 50  0001 C CNN
 	1    1750 3700
@@ -1143,7 +1144,7 @@ L F-M-Pins P_KS_P1
 U 1 1 5A108AD3
 P 4450 1000
 F 0 "P_KS_P1" H 4450 1050 24  0000 C CNN
-F 1 "yellow" H 4475 950 24  0001 C CNN
+F 1 "yellow" H 4475 950 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 4380 1000 50  0001 C CNN
 F 3 "" V 4350 1050 50  0001 C CNN
 	1    4450 1000
@@ -1152,12 +1153,12 @@ $EndComp
 $Comp
 L TH-Wire P_GND_P8
 U 1 1 5A10D328
-P 1550 2550
-F 0 "P_GND_P8" H 1550 2500 24  0000 C CNN
-F 1 "black" H 1575 2500 24  0001 C CNN
-F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 1480 2550 50  0001 C CNN
-F 3 "" V 1450 2600 50  0001 C CNN
-	1    1550 2550
+P 1500 2550
+F 0 "P_GND_P8" H 1450 2500 24  0000 C CNN
+F 1 "black" H 1600 2500 24  0000 C CNN
+F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 1430 2550 50  0001 C CNN
+F 3 "" V 1400 2600 50  0001 C CNN
+	1    1500 2550
 	-1   0    0    1   
 $EndComp
 Text Notes 1100 4600 0    31   ~ 0
@@ -1167,7 +1168,7 @@ L TH-Wire P_DryRet_A2
 U 1 1 5A112866
 P 3800 2050
 F 0 "P_DryRet_A2" H 3800 2100 24  0000 C CNN
-F 1 "green" H 3825 2000 24  0001 C CNN
+F 1 "green" H 4000 2100 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 3730 2050 50  0001 C CNN
 F 3 "" V 3700 2100 50  0001 C CNN
 	1    3800 2050
@@ -1178,7 +1179,7 @@ L TH-Wire P_Wet_A6
 U 1 1 5A119896
 P 2650 1600
 F 0 "P_Wet_A6" H 2650 1550 24  0000 C CNN
-F 1 "blue" H 2675 1550 24  0001 C CNN
+F 1 "blue" H 2800 1550 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:TH_Wire_Val" V 2580 1600 50  0001 C CNN
 F 3 "" V 2550 1650 50  0001 C CNN
 	1    2650 1600
@@ -1191,7 +1192,7 @@ L F-M-Pins P_Aux_P2
 U 1 1 5A126E2C
 P 4450 1250
 F 0 "P_Aux_P2" H 4450 1300 24  0000 C CNN
-F 1 "orange" H 4475 1200 24  0001 C CNN
+F 1 "orange" H 4475 1200 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 4380 1250 50  0001 C CNN
 F 3 "" V 4350 1300 50  0001 C CNN
 	1    4450 1250
@@ -1202,7 +1203,7 @@ L F-M-Pins P_GND_P5
 U 1 1 5A127578
 P 4450 2200
 F 0 "P_GND_P5" H 4450 2250 24  0000 C CNN
-F 1 "black" H 4475 2150 24  0001 C CNN
+F 1 "black" H 4475 2150 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 4380 2200 50  0001 C CNN
 F 3 "" V 4350 2250 50  0001 C CNN
 	1    4450 2200
@@ -1213,7 +1214,7 @@ L F-M-Pins P_LFO_P6
 U 1 1 5A127E14
 P 4450 3500
 F 0 "P_LFO_P6" H 4500 3550 24  0000 C CNN
-F 1 "white" H 4475 3450 24  0001 C CNN
+F 1 "white" H 4475 3450 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 4380 3500 50  0001 C CNN
 F 3 "" V 4350 3550 50  0001 C CNN
 	1    4450 3500
@@ -1224,7 +1225,7 @@ L F-M-Pins P_KS_P4
 U 1 1 5A1295C3
 P 4450 1800
 F 0 "P_KS_P4" H 4450 1850 24  0000 C CNN
-F 1 "yellow+b" H 4475 1750 24  0001 C CNN
+F 1 "yellow+b" H 4475 1750 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 4380 1800 50  0001 C CNN
 F 3 "" V 4350 1850 50  0001 C CNN
 	1    4450 1800
@@ -1235,7 +1236,7 @@ L F-M-Pins P_Aux_P3
 U 1 1 5A1296A8
 P 4450 1650
 F 0 "P_Aux_P3" H 4450 1700 24  0000 C CNN
-F 1 "orange+b" H 4475 1600 24  0001 C CNN
+F 1 "orange+b" H 4475 1600 24  0000 C CNN
 F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 4380 1650 50  0001 C CNN
 F 3 "" V 4350 1700 50  0001 C CNN
 	1    4450 1650
@@ -1244,12 +1245,12 @@ $EndComp
 $Comp
 L TH-Wire P_Aux_P7
 U 1 1 5A12F4BE
-P 1550 2700
-F 0 "P_Aux_P7" H 1550 2650 24  0000 C CNN
-F 1 "orange" H 1575 2650 24  0001 C CNN
-F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 1480 2700 50  0001 C CNN
-F 3 "" V 1450 2750 50  0001 C CNN
-	1    1550 2700
+P 1500 2700
+F 0 "P_Aux_P7" H 1450 2650 24  0000 C CNN
+F 1 "orange" H 1600 2650 24  0000 C CNN
+F 2 "MyKi_TH_Connectors:Conn_Female_Dupont-1_Val" V 1430 2700 50  0001 C CNN
+F 3 "" V 1400 2750 50  0001 C CNN
+	1    1500 2700
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1327,9 +1328,9 @@ Wire Wire Line
 Wire Wire Line
 	2450 2700 3400 2700
 Wire Wire Line
-	2150 2700 1600 2700
+	2150 2700 1550 2700
 Wire Wire Line
-	1500 2700 1100 2700
+	1450 2700 1100 2700
 Wire Notes Line
 	4500 900  4500 900 
 Wire Wire Line
@@ -1443,7 +1444,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3350 4850 3950
 Wire Wire Line
-	1900 3900 4300 3900
+	4300 3900 1900 3900
 Wire Notes Line
 	4550 700  4550 4100
 Wire Notes Line
@@ -1463,7 +1464,7 @@ Wire Notes Line
 Wire Notes Line
 	750  700  750  4100
 Wire Wire Line
-	4300 3900 4300 2750
+	4300 2750 4300 3900
 Connection ~ 2700 2550
 Wire Wire Line
 	2200 2150 2200 1800
@@ -1499,7 +1500,7 @@ Wire Wire Line
 	3950 1500 4000 1500
 Connection ~ 2700 1750
 Wire Wire Line
-	3050 2050 3050 3900
+	3050 2150 3050 3900
 Connection ~ 3050 3900
 Wire Wire Line
 	4200 2550 4300 2550
@@ -1515,13 +1516,13 @@ Wire Wire Line
 	3350 1250 3350 2300
 Connection ~ 3350 2300
 Wire Notes Line
-	2750 2050 3300 2050
+	2750 2100 3300 2100
 Wire Notes Line
-	2750 2050 2750 850 
+	2750 2100 2750 850 
 Wire Notes Line
 	2750 850  3300 850 
 Wire Notes Line
-	3300 850  3300 2050
+	3300 850  3300 2100
 Wire Wire Line
 	1700 800  3350 800 
 Wire Wire Line
@@ -1612,7 +1613,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3750 5250 3750
 Wire Wire Line
-	3000 1850 3050 1850
+	3000 1900 3050 1900
 Wire Wire Line
 	3000 1750 3050 1750
 Wire Wire Line
@@ -1620,11 +1621,11 @@ Wire Wire Line
 Wire Wire Line
 	3700 2050 3750 2050
 Wire Wire Line
-	2900 2550 1600 2550
+	2900 2550 1550 2550
 Wire Wire Line
 	1300 2200 1300 2550
 Wire Wire Line
-	1250 2550 1500 2550
+	1250 2550 1450 2550
 Connection ~ 1300 2550
 Connection ~ 1900 2550
 Wire Wire Line
@@ -1660,7 +1661,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1500 4200 1500
 Wire Wire Line
-	2900 1850 2900 2550
+	2900 1900 2900 2550
 Wire Wire Line
 	2900 2200 4400 2200
 Connection ~ 2900 2200
@@ -1722,4 +1723,6 @@ Wire Wire Line
 	4900 1800 4900 1900
 Wire Wire Line
 	5600 3850 5550 3850
+Wire Wire Line
+	3850 2050 3900 2050
 $EndSCHEMATC

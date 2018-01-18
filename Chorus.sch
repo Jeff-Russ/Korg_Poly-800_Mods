@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 7205 7481
 encoding utf-8
-Sheet 2 5
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -2129,8 +2129,8 @@ Post-Chorus Filtering
 $Sheet
 S 1100 2550 550  800 
 U 59FAB4E6
-F0 "Chorus_Mods" 31
-F1 "Chorus_Mods.sch" 28
+F0 "ChorusMod" 31
+F1 "./ChorusMod/ChorusMod.sch" 24
 F2 "-A" I L 1100 3000 35 
 F3 "+A" I L 1100 2800 31 
 F4 "GND" I L 1100 2900 31 

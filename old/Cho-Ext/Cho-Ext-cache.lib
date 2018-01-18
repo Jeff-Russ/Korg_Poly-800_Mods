@@ -87,9 +87,9 @@ ENDDEF
 #
 # F-M-Pins
 #
-DEF ~F-M-Pins P 0 0 N Y 1 F N
+DEF F-M-Pins P 0 0 N Y 1 F N
 F0 "P" 0 50 24 H V C CNN
-F1 "F-M-Pins" 10 -50 24 H I C CNN
+F1 "F-M-Pins" 150 50 24 H V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" -100 50 50 V I C CNN
 $FPLIST
@@ -187,9 +187,9 @@ ENDDEF
 #
 # TH-Wire
 #
-DEF ~TH-Wire THW 0 0 N Y 1 F N
+DEF TH-Wire THW 0 0 N Y 1 F N
 F0 "THW" 0 50 24 H V C CNN
-F1 "TH-Wire" 10 -50 24 H I C CNN
+F1 "TH-Wire" 130 50 24 H V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" -100 50 50 V I C CNN
 $FPLIST
@@ -234,9 +234,9 @@ ENDDEF
 #
 # Wire
 #
-DEF ~Wire W 0 0 N Y 1 F N
+DEF Wire W 0 0 N Y 1 F N
 F0 "W" 25 50 24 H V C CNN
-F1 "Wire" 25 -50 24 H I C CNN
+F1 "Wire" 30 90 24 H V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" -100 50 50 V I C CNN
 $FPLIST

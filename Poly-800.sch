@@ -41,7 +41,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 10157 6103
 encoding utf-8
-Sheet 1 5
+Sheet 1 3
 Title "Poly-800 Extensions"
 Date "2017-10-29"
 Rev ""
