@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Chorus_Ext-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,18 +28,19 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:switches
-LIBS:MyKi_DIP_IC
-LIBS:MyKi_Switches
-LIBS:MyKi_Connectors
 LIBS:MyKi_Board_Features
+LIBS:MyKi_Connectors
+LIBS:MyKi_DIP_IC
+LIBS:MyKi_Panel_Layout
 LIBS:MyKI_Potentiometers
-LIBS:ChorusMod-cache
+LIBS:MyKi_Power_Flags
+LIBS:MyKi_Power_Regulators
+LIBS:MyKi_Switches
 EELAYER 26 0
 EELAYER END
 $Descr User 11456 6693
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -2457,6 +2457,6 @@ Wire Wire Line
 Wire Wire Line
 	800  1800 850  1800
 Connection ~ 850  1800
-Text Notes 10000 3600 0    35   ~ 0
-NOTE that since this \nmod inverts the input \nthe BBD, “Inv” here \nreally means double \ninverts so not inverted.\n\nThe panel should reflect\nthis and not the way it’s \nspecified above.
+Text Notes 9950 3600 0    35   ~ 0
+NOTE that since this \nmod inverts the input \nthe BBD, “Inv” here \nreally means double \ninverts. In other words, \nfeedback is already \ninverted so what shows\nas inverted above actually\nis non-inverted in the end.
 $EndSCHEMATC
